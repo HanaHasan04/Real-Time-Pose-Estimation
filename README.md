@@ -35,6 +35,10 @@ The speed of the landmark's movement in each direction can then be calculated us
  - Try different methods to calculate the overall direction of movement from the landmarks' directions, other than the majority vote (perhaps methods that assign different weights to different landmarks)  
  - Recognize some gestures such as hand gestures (waving, pointing, etc.) and facial expressions (smiling, raising eyebrows, etc.)  
    
+ # Requirements  
+- Python 3.7-3.10  
+- a webcam connected to your computer  
+
    
  # Install and Run  
  To use this project, please follow these steps:  
@@ -42,11 +46,13 @@ The speed of the landmark's movement in each direction can then be calculated us
  `git clone https://github.com/HanaHasan04/Real-Time-Pose-Estimation.git`  
  2. Navigate to the project's directory:  
  `cd Real-Time-Pose-Estimation`  
- 3. Install the required modules:
+ 3. Install the required modules:  
  `pip install opencv-python mediapipe numpy`  
  4. Run the project using the following command:   
  `python main.py`  
    
-This will activate your webcam and start the real-time pose estimation. You're now ready to use the project :-) 
+This will activate your webcam and start the real-time pose estimation. You're now ready to use the project :-)   
+  
+
 
  
