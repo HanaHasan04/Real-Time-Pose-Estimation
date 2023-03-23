@@ -50,6 +50,8 @@ The speed of the landmark's movement in each direction can then be calculated us
  `cd Real-Time-Pose-Estimation`  
  3. Install the dependencies:  
  `pip install -r requirements.txt`  
+ **OR** Install the required modules:  
+ `pip install opencv-python mediapipe numpy`  
  4. Run the project using the following command:   
  `python main.py`  
    
