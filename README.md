@@ -48,11 +48,18 @@ The speed of the landmark's movement in each direction can then be calculated us
  `git clone https://github.com/HanaHasan04/Real-Time-Pose-Estimation.git`  
  2. Navigate to the project's directory:  
  `cd Real-Time-Pose-Estimation`  
- 3. Install the dependencies:  
+ 3. Create and activate a new virtual environment with Python 3.10:  
+ - **On macOS or Linux:**  
+ `python3.10 -m venv myenv`  
+ `source myenv/bin/activate`  
+ - **On Windows:**  
+ `py -3.10 -m venv myenv`  
+ `myenv\Scripts\activate`  
+ 4. Install the dependencies:  
  `pip install -r requirements.txt`  
- **OR** Install the required modules:  
+ **OR**   
  `pip install opencv-python mediapipe numpy`  
- 4. Run the project using the following command:   
+ 5. Run the project using the following command:   
  `python main.py`  
    
 This will activate your webcam and start the real-time pose estimation. You're now ready to use the project :-)   
