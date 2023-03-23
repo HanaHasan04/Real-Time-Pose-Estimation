@@ -39,7 +39,7 @@ The speed of the landmark's movement in each direction can then be calculated us
  # Install and Run  
  To use this project, please follow these steps:  
  1. Clone the repository using the following command:  
- `git clone git clone https://github.com/HanaHasan04/Real-Time-Pose-Estimation.git`  
+ `git clone https://github.com/HanaHasan04/Real-Time-Pose-Estimation.git`  
  2. Navigate to the project's directory:  
  `cd Real-Time-Pose-Estimation`  
  3. Run the project using the following command:   
