@@ -4,7 +4,8 @@
 This code uses the Mediapipe library to extract pose landmarks from a live video stream captured using the webcam. The landmarks are the 33 specific points on the human body, such as the nose, eyes, shoulders, elbows, wrists, hips, knees, and ankles. It then calculates the speed of movement and the direction of movement of the body in real-time using the landmarks data. The majority vote algorithm is utilized to determine the overall direction of movement.  
 The output can help in analyzing the body posture and movement patterns, and it can be used for various applications such as sports training, health monitoring, and gaming.  
   
- ![image](https://user-images.githubusercontent.com/100927079/227047436-729eedfc-7c5d-4b12-9e6e-43b6762f564f.png)  
+<img src="https://user-images.githubusercontent.com/100927079/227047436-729eedfc-7c5d-4b12-9e6e-43b6762f564f.png" width="80%">  
+  
   
 ### Displaying on the video window:  
 - The mean speed in meters per second along each axis (x, y, z).  
@@ -35,6 +36,15 @@ The speed of the landmark's movement in each direction can then be calculated us
  - Recognize some gestures such as hand gestures (waving, pointing, etc.) and facial expressions (smiling, raising eyebrows, etc.)  
    
    
- # Run and Install  
+ # Install and Run  
+ To use this project, please follow these steps:  
+ 1. Clone the repository using the following command:  
+ `git clone git clone https://github.com/HanaHasan04/Real-Time-Pose-Estimation.git`  
+ 2. Navigate to the project's directory:  
+ `cd Real-Time-Pose-Estimation`  
+ 3. Run the project using the following command:   
+ `python main.py`  
+   
+This will activate your webcam and start the real-time pose estimation. You're now ready to use the project :-) 
 
  
