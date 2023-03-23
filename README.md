@@ -37,7 +37,9 @@ The speed of the landmark's movement in each direction can then be calculated us
    
  # Requirements  
 - Python 3.7-3.10  
-- a webcam connected to your computer  
+- numpy  
+- opencv-python  
+- mediapipe 0.9.1.0
 
    
  # Install and Run  
@@ -46,8 +48,8 @@ The speed of the landmark's movement in each direction can then be calculated us
  `git clone https://github.com/HanaHasan04/Real-Time-Pose-Estimation.git`  
  2. Navigate to the project's directory:  
  `cd Real-Time-Pose-Estimation`  
- 3. Install the required modules:  
- `pip install opencv-python mediapipe numpy`  
+ 3. Install the dependencies:  
+ `pip install -r requirements.txt`  
  4. Run the project using the following command:   
  `python main.py`  
    
